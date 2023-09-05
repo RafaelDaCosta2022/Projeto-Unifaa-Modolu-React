@@ -1,30 +1,10 @@
-document.querySelector("input[id='dark']").addEventListener("change", function() {
-    var htmlElement = document.querySelector("html");
-    var currentTheme = htmlElement.getAttribute("data-bs-theme");
-  
-    if (currentTheme === 'light') {
-      htmlElement.setAttribute("data-bs-theme", "dark");
-    } else if (currentTheme === "dark") {
-      htmlElement.setAttribute("data-bs-theme", "light");
-    }
-  });
-
 
 const URL = 'http://localhost:3400/clientes';
 let modoEdicao = false;
 
 let listaClientes = [];
 
-document.querySelector("input[id='color-mode']").addEventListener("change", function() {
-  let htmlElement = document.querySelector("html");
-   let currentTheme = htmlElement.getAttribute("data-bs-theme");
-  
-    if (currentTheme === 'light') {
-      htmlElement.setAttribute("data-bs-theme", "dark");
-    } else if (currentTheme === "dark") {
-      htmlElement.setAttribute("data-bs-theme", "light");
-    }
-  });
+
   
 
 let btnAdicionar = document.getElementById('btn-adicionar');
@@ -43,6 +23,21 @@ let formModal = {
     cpf: document.getElementById('cpf'),
     dataCadastro: document.getElementById('dataCadastro')
 }
+function modoDark(){
+
+  
+    document.querySelector("input[id='dark']").addEventListener("change", function() {
+        var htmlElement = document.querySelector("html");
+        var currentTheme = htmlElement.getAttribute("data-bs-theme");
+      
+        if (currentTheme === 'light') {
+          htmlElement.setAttribute("data-bs-theme", "dark");
+        } else if (currentTheme === "dark") {
+          htmlElement.setAttribute("data-bs-theme", "light");
+        }
+      });
+}
+
 
 btnAdicionar.addEventListener('click', () =>{
     modoEdicao = false;
@@ -90,6 +85,7 @@ function obterClienteDoModal(){
 }
  
 function obterClientes() {
+    modoDark()
 
     fetch(URL, {
         method: 'GET',
@@ -301,3 +297,4 @@ function atualizarClienteNaLista(cliente, removerCliente){
 }
 
 obterClientes();
+
