@@ -23,12 +23,10 @@ let formModal = {
     cpf: document.getElementById('cpf'),
     dataCadastro: document.getElementById('dataCadastro')
 }
-function modoDark(){
-
-  
+function modoDark(){  
     document.querySelector("input[id='dark']").addEventListener("change", function() {
-        var htmlElement = document.querySelector("html");
-        var currentTheme = htmlElement.getAttribute("data-bs-theme");
+      const htmlElement = document.querySelector("html");
+      const currentTheme = htmlElement.getAttribute("data-bs-theme");
       
         if (currentTheme === 'light') {
           htmlElement.setAttribute("data-bs-theme", "dark");
