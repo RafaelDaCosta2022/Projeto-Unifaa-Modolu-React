@@ -11,7 +11,7 @@ Projeto de Crud para a faculdade
  - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
 
-## Autore
+## Autor
 
 - [@RafaelDaCosta2022](https://github.com/RafaelDaCosta2022)
 
