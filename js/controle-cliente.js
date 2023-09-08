@@ -3,8 +3,6 @@ const URL = 'http://localhost:3400/clientes';
 let modoEdicao = false;
 
 let listaClientes = [];
-
-
   
 
 let btnAdicionar = document.getElementById('btn-adicionar');
