@@ -1,12 +1,35 @@
-h3 align="center">Projeito de Crud para faculdade Unifaa</h3>
 
-- 🔭 Atualmente estou trabalhando no [Projeto-Unifaa-Modolu-React](https://github.com/RafaelDaCosta2022/Projeto-Unifaa- Modolu-React/)
+# Título do Projeto
 
-- 📫 Como entrar em contato comigo **rafaelc893@gmail.com**
+Projeto de Crud para a faculdade
 
-<h3 align="left">Conecte-se comigo:</h3>
-<p align="left">
-</p>
 
-<h3 align="left">Idiomas e ferramentas:</h3>
-<p align="left"> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https ://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href= "https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark .svg" alt="nodejs" width="40" height="40"/> </a> </p>
+## Referência
+
+ - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Awesome README](https://github.com/matiassingers/awesome-readme)
+ - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+
+
+## Autore
+
+- [@RafaelDaCosta2022](https://github.com/RafaelDaCosta2022)
+
+
+## Etiquetas
+
+Adicione etiquetas de algum lugar, como: [shields.io](https://shields.io/)
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+
+
+## Deploy
+
+Para fazer o deploy desse projeto rode
+
+```bash
+  npm i = para instalar as dependências
+  npm start = para iniciae a aplicação no backend
+```
