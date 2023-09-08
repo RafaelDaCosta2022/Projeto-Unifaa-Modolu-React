@@ -16,7 +16,10 @@
 table.table {
     box-shadow: 0 0 10px 0 rgb(50 50 50 / 82%);
 }
-
+.imgtexto{
+    border: 5px solid #bcc4c7;
+    width: 11%;
+}
 
 
 button.btn{
