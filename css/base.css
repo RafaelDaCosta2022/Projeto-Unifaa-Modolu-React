@@ -140,3 +140,6 @@ li{
     }
   }
 
+  .nav-link :hover{
+  background-color: #0606e9;
+}
